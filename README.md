@@ -2,7 +2,7 @@
 
 ## Features ##
 
-- Generates a `compile\_commands.json` for integration with <https://github.com/Andersbakken/rtags>, <https://github.com/Valloric/YouCompleteMe>, etc (requires cmake at least v3.5.2).
+- Generates a `compile_commands.json` for integration with <https://github.com/Andersbakken/rtags>, <https://github.com/Valloric/YouCompleteMe>, etc (requires cmake at least v3.5.2).
 - Unit tests/code coverage.
 
 ## Requirements ##
