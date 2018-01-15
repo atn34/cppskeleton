@@ -1,0 +1,7 @@
+install:
+  - sudo apt-get install build-essential cmake git ninja
+  - sudo ./install-deps.sh
+
+script:
+  - make build
+  - make test
