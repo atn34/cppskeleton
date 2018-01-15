@@ -1,7 +1,10 @@
 install:
-  - sudo apt-get install build-essential cmake git ninja
+  - sudo apt-get install build-essential cmake git ninja-build
   - sudo ./install-deps.sh
 
 script:
   - make build
   - make test
+
+after_success: 
+  - bash <(curl -s https://codecov.io/bash)
